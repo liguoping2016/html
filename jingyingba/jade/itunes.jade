@@ -1,0 +1,59 @@
+doctype
+html
+    head
+        meta(charset="utf-8")
+        title #{账号设置}
+        link(rel="stylesheet",href="../css/index.css")
+    body
+        include head.jade
+        include itunesSpeed.jade
+        div.revise
+            div.min_revise
+                include itunesSidebar.jade
+                div.itunes_body
+                    div.itunes_body_center
+                       form
+                          p 重设您的账号密码
+                          div.current_password
+                              span 当前密码:
+                              input(type="password",value="",name="passward").redon
+                              em
+                                img(src="../image/warning.png",alt="")
+                                span 请输入当前密码
+                          div.new_password
+                              span 新密码:
+                              input(type="password",value="",name="passward").redon
+                              em
+                                  img(src="../image/warning.png",alt="")
+                                  span 请输入新密码
+                          div.new_passwordend
+                              span 再次确认密码:
+                              input(type="password",value="",name="passward").redon
+                              em
+                                img(src="../image/warning.png",alt="")
+                                span 请再次输入新密码
+                          input(type="submit",value="提交").btn
+                div.internal
+                    div.internal_body
+                        form
+                            p 在校生信息
+                            div
+                                span 姓&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;名：
+                                input(type="password",value="",name="passward").redon
+                            div
+                                span 所在学校：
+                                input(type="password",value="",name="passward").redon
+                            div
+                                span 所在系别：
+                                input(type="password",value="",name="passward").redon
+                            div
+                                span 所在专业：
+                                input(type="password",value="",name="passward").redon
+                            div
+                                span 所在班级：
+                                input(type="password",value="",name="passward").redon
+                            div#iderr
+                                img(src="../image/correct.png",alt="")
+                                span 添加成功
+                            input(type="submit",value="提交").btn
+        include footer.jade

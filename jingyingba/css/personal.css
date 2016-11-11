@@ -1,0 +1,249 @@
+.speed {
+  margin-top: 30px;
+}
+.speed .min_speed {
+  width: 1225px;
+  margin: 0 auto;
+  background: #fff;
+  overflow: hidden;
+}
+.speed .min_speed .min_speed_left {
+  padding: 21px 43px 0 42px;
+  float: left;
+  margin-right: 22px;
+  border-right: 1px solid #e8e8e8;
+  text-align: center;
+}
+.speed .min_speed .min_speed_left img {
+  margin-bottom: 5px;
+  width: 86px;
+  height: 86px;
+}
+.speed .min_speed .min_speed_left p {
+  color: #333333;
+  line-height: 14px;
+  margin: 0;
+}
+.speed .min_speed .min_speed_left span {
+  display: block;
+  border: 1px solid #cccccc;
+  width: 38px;
+  height: 13px;
+  color: #666666;
+  font-size: 12px;
+  margin: 0 auto;
+  margin-top: 9px;
+  margin-bottom: 22px;
+}
+.speed .min_speed .min_speed_right {
+  width: 1031px;
+  padding: 25px 0 6px 0;
+  float: left;
+}
+.speed .min_speed .min_speed_right .spees_right_title {
+  float: left;
+}
+.speed .min_speed .min_speed_right .spees_right_title h2 {
+  font-size: 14px;
+  color: #ebebeb;
+  margin-bottom: 21px;
+}
+.speed .min_speed .min_speed_right .spees_right_title p {
+  margin-left: 9px;
+  color: #333333;
+  line-height: 12px;
+  margin-bottom: 22px;
+}
+.speed .min_speed .speed_right_con {
+  float: left;
+  margin-left: 148px;
+  padding: 59px 0 9px;
+}
+.speed .min_speed .speed_right_con span {
+  display: block;
+  line-height: 13px;
+  margin-bottom: 23px;
+}
+.speed .min_speed .speed_right_item {
+  margin-right: 62px;
+  float: right;
+  padding: 59px 0 9px;
+}
+.speed .min_speed .speed_right_item span {
+  display: block;
+  line-height: 13px;
+  margin-bottom: 23px;
+}
+.revise {
+  margin-top: 30px;
+  overflow: hidden;
+}
+.revise .min_revise {
+  width: 1225px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.revise .min_revise .itunesbar {
+  width: 169px;
+  border: 1px solid #fff;
+  border-top: none;
+  float: left;
+  overflow: hidden;
+  margin-right: 15px;
+}
+.revise .min_revise .itunesbar ul {
+  list-style-type: none;
+}
+.revise .min_revise .itunesbar ul li {
+  border: 1px solid #fff;
+  background: #fff;
+  line-height: 48px;
+}
+.revise .min_revise .itunesbar ul li a {
+  color: #494949;
+}
+.revise .min_revise .itunesbar ul li a div {
+  height: 48px;
+  width: 2px;
+  background: #fff;
+  float: left;
+}
+.revise .min_revise .itunesbar ul li a span {
+  line-height: 47px;
+  padding-left: 20px;
+  display: block;
+}
+.revise .min_revise .itunesbar ul li:hover {
+  background: #fafafa;
+}
+.revise .min_revise .itunesbar ul li:hover div {
+  height: 48px;
+  width: 2px;
+  background: #29b572;
+  float: left;
+}
+.revise .min_revise .itunesbar ul li:hover span {
+  line-height: 47px;
+  padding-left: 20px;
+  display: block;
+}
+.revise .min_revise .itunes_body {
+  display: none;
+  width: 1029px;
+  background: #fff;
+  float: right;
+}
+.revise .min_revise .itunes_body .itunes_body_center {
+  padding: 127px 0 127px 227px;
+}
+.revise .min_revise .itunes_body form p {
+  color: #666666;
+  margin-bottom: 15px;
+}
+.revise .min_revise .itunes_body form div {
+  height: 38px;
+  margin-bottom: 12px;
+}
+.revise .min_revise .itunes_body form div span {
+  margin-right: 20px;
+  text-align: right;
+  line-height: 38px;
+  color: #333333;
+  float: left;
+  width: 100px;
+}
+.revise .min_revise .itunes_body form div input {
+  margin-right: 10px;
+  padding: 0 10px;
+  height: 36px;
+  float: left;
+  width: 286px;
+}
+.revise .min_revise .itunes_body form div em {
+  margin-top: 10px;
+  font-style: normal;
+  font-size: 12px;
+  float: left;
+}
+.revise .min_revise .itunes_body form div em img {
+  margin-right: 5px;
+  float: left;
+  margin-bottom: -3px;
+}
+.revise .min_revise .itunes_body form div em span {
+  display: inline-block;
+  line-height: 12px;
+  text-align: left;
+}
+.revise .min_revise .itunes_body form .btn {
+  margin-top: 36px;
+  margin-left: 120px;
+  background: #29b572 ;
+  color: #fff;
+  width: 134px;
+  line-height: 14px;
+  height: 38px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  border: none;
+}
+.revise .min_revise .internal {
+  width: 1029px;
+  background: #fff;
+  float: right;
+}
+.revise .min_revise .internal .internal_body {
+  padding: 92px 0;
+}
+.revise .min_revise .internal form {
+  width: 550px;
+  margin: 0 auto;
+}
+.revise .min_revise .internal form p {
+  color: #666666;
+  margin-bottom: 15px;
+}
+.revise .min_revise .internal form div {
+  height: 38px;
+  margin-bottom: 12px;
+}
+.revise .min_revise .internal form div span {
+  margin-right: 20px;
+  text-align: left;
+  line-height: 38px;
+  color: #333333;
+  float: left;
+}
+.revise .min_revise .internal form div input {
+  margin-right: 10px;
+  padding: 0 10px;
+  height: 36px;
+  float: left;
+  width: 286px;
+}
+.revise .min_revise .internal form #iderr {
+  padding-left: 100px;
+  margin: 0;
+}
+.revise .min_revise .internal form #iderr img {
+  float: left;
+  margin-top: 10px;
+  margin-right: 5px;
+}
+.revise .min_revise .internal form #iderr span {
+  text-align: left;
+}
+.revise .min_revise .internal form .btn {
+  margin-top: 36px;
+  margin-left: 120px;
+  background: #29b572 ;
+  color: #fff;
+  width: 134px;
+  line-height: 14px;
+  height: 38px;
+  cursor: pointer;
+  text-align: center;
+  outline: none;
+  border: none;
+}
