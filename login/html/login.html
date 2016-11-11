@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>登录注册</title>
+	<style type="text/css">
+		form{
+			width:300px;
+			height: 250px;
+			background: black;
+			border:1px solid #F0F0F0;
+			margin:30px auto;
+			border-radius:20px;
+			color:#fff;
+		}
+		h2{
+			line-height: 30px;
+			letter-spacing: 50px;
+			margin-left: 100px;
+		}
+		label{
+			margin-right:20px;
+			margin-left:30px;
+		}
+		input{
+			width:160px;
+			height: 20px;
+			outline: none;
+			border-radius:5px;
+			font-size: 16px;
+		}
+		[type="submit"]{
+			height: 30px;
+			background: orange;
+			width:80px;
+			position: relative;
+			margin-left: 180px;
+			outline: none;
+		}
+	</style>
+</head>
+<body>
+<form action="/form" method="GET">
+	<h2>登陆</h2>
+	<label for="username">用户名:</label>
+	<input type="text" name="username" id="username" placeholder="请输入用户名" required>
+	<br/>
+	<br/>
+	<br/>
+	<label for="password">密&nbsp;&nbsp;&nbsp;码:</label>
+	<input type="password" name="pwd" placeholder="请输入密码" required>
+	<br/>
+	<br/>
+	<br/>
+	<input type="submit" name="" valur="提交">
+</form>
+</body>
+	<script type="text/javascript">
+	 	var user = document.querySelector("[type='text']");
+	 	var pwd = document.querySelector("[type='password']");
+	 	var btn = document.querySelector("[type='submit']");
+	 	console.log(btn);
+	 	btn.onclick =function(){
+	 		if(!user.value){
+				alert("用户名不能为空!")
+			}else{
+				var reg=/[0-9]{1,11}/;
+		 		if(reg.test(user.value)){
+		 			return
+		 		}else{
+		 			alert("请输入正确的用户名")
+		 		}
+			}	 		
+	 	}
+	 	console.log(user,pwd);
+ 	</script>
+</html>
